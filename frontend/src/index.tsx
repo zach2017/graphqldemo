@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: 'https://swapi-graphql.netlify.app/.netlify/functions/index',
+  uri: 'http://localhost:54752',
   cache: new InMemoryCache(),
 });
 
